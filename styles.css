@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 50px;
+    position: relative;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+#welcome-message img {
+    width: 200px;
+    margin: 20px auto;
+    display: block;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #005f73;
+}
+
+#emoji-container {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+}
+
+.emoji {
+    position: absolute;
+    font-size: 40px;
+    cursor: pointer;
+}
